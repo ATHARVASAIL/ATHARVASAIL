@@ -42,7 +42,7 @@ jobs:
 
           # Blue sci-fi skin over the dark theme
           extras_css: |
-            svg { background: #0a0e1a !important; }
+            svg { background: #05070d !important; }
             h2, .field a, a { color: #00b4ff !important; }
             .field svg, .row svg { fill: #22d3ee; }
             text { fill: #e6edf3; }

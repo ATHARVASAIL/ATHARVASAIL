@@ -22,7 +22,7 @@ jobs:
           github_user_name: ATHARVASAIL
           outputs: |
             dist/snake.svg?palette=github-light
-            dist/snake-dark.svg?color_snake=#00b4ff&color_dots=#0a0e1a,#003554,#0086c3,#00b4ff,#22d3ee
+            dist/snake-dark.svg?color_snake=#00b4ff&color_dots=#05070d,#00304d,#0086c3,#00b4ff,#22d3ee
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
