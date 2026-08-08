@@ -17,15 +17,16 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Create a classic PAT with scopes: public_repo, read:user
-          # Save it as repo secret METRICS_TOKEN
+          # Classic PAT with scopes: public_repo, read:user
+          # Saved as repo secret METRICS_TOKEN
           token: ${{ secrets.METRICS_TOKEN }}
           user: ATHARVASAIL
           filename: metrics.svg
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
-          config_order: base.header, isocalendar, languages, activity, habits, achievements
+          config_order: base.header, isocalendar, languages, activity, community
+          config_theme: dark
 
           # Isometric contribution calendar
           plugin_isocalendar: yes
@@ -35,15 +36,13 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
+          plugin_languages_colors: >-
+            0:00b4ff, 1:22d3ee, 2:0086c3, 3:38bdf8,
+            4:0ea5e9, 5:7dd3fc, 6:0369a1, 7:67e8f9
 
-          # Coding habits — commit times, most used tools
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # Achievements / ranks
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: compact
+          # Blue sci-fi skin over the dark theme
+          extras_css: |
+            svg { background: #0a0e1a !important; }
+            h2, .field a, a { color: #00b4ff !important; }
+            .field svg, .row svg { fill: #22d3ee; }
+            text { fill: #e6edf3; }

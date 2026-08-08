@@ -1,19 +1,20 @@
 <!--
-  ATHARVA SAIL — GitHub Profile README  (v2)
+  ATHARVA SAIL — GitHub Profile README  (v3)
   Repo name must be exactly: ATHARVASAIL
-  Theme: ink #0b0c10 · crimson #d62828 · ember #f77f00 · bone #eae0d5
+  Palette: void #0a0e1a · deep #003554 · signal #00b4ff · ion #22d3ee · bone #e6edf3
 -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0c10,50:6a040f,100:d62828&height=200&section=header&text=ATHARVA%20SAIL&fontSize=58&fontColor=EAE0D5&fontAlignY=36&animation=fadeIn&desc=VAPT%20Analyst%20%C2%B7%20Offensive%20Security&descSize=17&descAlignY=57" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e1a,45:003554,100:00b4ff&height=200&section=header&text=ATHARVA%20SAIL&fontSize=58&fontColor=e6edf3&fontAlignY=36&animation=fadeIn&desc=VAPT%20Analyst%20%C2%B7%20Offensive%20Security&descSize=17&descAlignY=57" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1200&color=D62828&center=true&vCenter=true&width=780&height=55&lines=Web+%E2%80%A2+Mobile+%E2%80%A2+Network+%E2%80%A2+API+%E2%80%A2+LLM+Security;25%2B+web+apps+%7C+15%2B+networks+%7C+30%2B+reports+delivered;OWASP+%7C+PTES+%7C+NIST+aligned;I+break+it+before+someone+else+does." alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1200&color=00B4FF&center=true&vCenter=true&width=780&height=55&lines=%3E+initializing+operator+profile...;Web+%E2%80%A2+Mobile+%E2%80%A2+Network+%E2%80%A2+API+%E2%80%A2+LLM+security;25%2B+web+apps+%7C+15%2B+networks+%7C+30%2B+reports+delivered;I+break+it+before+someone+else+does." alt="typing" />
 
-<a href="https://www.linkedin.com/in/atharvasail"><img src="https://img.shields.io/badge/LinkedIn-0b0c10?style=for-the-badge&logo=linkedin&logoColor=EAE0D5" /></a>
-<a href="https://atharvasail.github.io"><img src="https://img.shields.io/badge/Portfolio-0b0c10?style=for-the-badge&logo=firefoxbrowser&logoColor=F77F00" /></a>
-<a href="https://tryhackme.com/p/ATHARVASAIL"><img src="https://img.shields.io/badge/TryHackMe-0b0c10?style=for-the-badge&logo=tryhackme&logoColor=88CC14" /></a>
-<img src="https://komarev.com/ghpvc/?username=ATHARVASAIL&style=for-the-badge&color=d62828&label=RECON+HITS" />
+<a href="https://www.linkedin.com/in/atharva-sail"><img src="https://img.shields.io/badge/LinkedIn-0a0e1a?style=for-the-badge&logo=linkedin&logoColor=00B4FF" /></a>
+<a href="https://atharvasail.github.io"><img src="https://img.shields.io/badge/Portfolio-0a0e1a?style=for-the-badge&logo=firefoxbrowser&logoColor=22D3EE" /></a>
+<a href="https://tryhackme.com/p/kirahack10669"><img src="https://img.shields.io/badge/TryHackMe-0a0e1a?style=for-the-badge&logo=tryhackme&logoColor=00B4FF" /></a>
+<a href="https://profile.hackthebox.com/profile/019fe129-f91a-73fb-b789-334a41568712"><img src="https://img.shields.io/badge/HackTheBox-0a0e1a?style=for-the-badge&logo=hackthebox&logoColor=22D3EE" /></a>
+<a href="https://github.com/ATHARVASAIL?tab=repositories"><img src="https://komarev.com/ghpvc/?username=ATHARVASAIL&style=for-the-badge&color=00b4ff&label=RECON+HITS" /></a>
 
 </div>
 
@@ -22,9 +23,10 @@
 ## `[*]` Scan report
 
 ```console
-$ nmap -sV -A atharva.sail
+┌──[ RECON ]──────────────────────────────────────────────────────────────┐
+│  $ nmap -sV -A --script vuln atharva.sail                               │
+└─────────────────────────────────────────────────────────────────────────┘
 
-Starting Nmap ( https://github.com/ATHARVASAIL )
 Host is up (0.0021s latency).
 
 PORT      STATE     SERVICE        VERSION
@@ -36,8 +38,13 @@ PORT      STATE     SERVICE        VERSION
 11434/tcp open      llm-vapt       prompt injection, data leakage
 22/tcp    filtered  downtime       chess | sudoku | packet captures
 
-Service Info: OWASP Top 10, MASVS, PTES, NIST
+┌──[ SIGNAL ]─────────────────────────────────────────────────────────────┐
+│  web       ████████████████████░░░░   api       ██████████████████░░░░░░ │
+│  network   ██████████████████░░░░░░   llm       ████████████████░░░░░░░░ │
+│  mobile    ██████████████████░░░░░░   reporting ██████████████████████░░ │
+└─────────────────────────────────────────────────────────────────────────┘
 
+Service Info: OWASP Top 10, MASVS, PTES, NIST
 Nmap done: 1 host up — findings triaged, reported, retested.
 ```
 
@@ -58,40 +65,40 @@ tooling I wish I'd had on the last one.
 <tr valign="top">
 <td>
 
-<img src="https://img.shields.io/badge/Burp_Suite-0b0c10?style=flat-square&logo=burpsuite&logoColor=FF6633" />
-<img src="https://img.shields.io/badge/Nmap-0b0c10?style=flat-square&logo=nmap&logoColor=EAE0D5" />
-<img src="https://img.shields.io/badge/Wireshark-0b0c10?style=flat-square&logo=wireshark&logoColor=1679A7" />
-<img src="https://img.shields.io/badge/Nessus-0b0c10?style=flat-square&logo=tenable&logoColor=00558C" />
-<img src="https://img.shields.io/badge/MobSF-0b0c10?style=flat-square&logo=android&logoColor=3DDC84" />
-<img src="https://img.shields.io/badge/Frida-0b0c10?style=flat-square&logo=frida&logoColor=F5A623" />
-<img src="https://img.shields.io/badge/JADX-0b0c10?style=flat-square&logo=java&logoColor=E76F00" />
-<img src="https://img.shields.io/badge/Apktool-0b0c10?style=flat-square&logo=androidstudio&logoColor=3DDC84" />
-<img src="https://img.shields.io/badge/Postman-0b0c10?style=flat-square&logo=postman&logoColor=FF6C37" />
-<img src="https://img.shields.io/badge/Kali-0b0c10?style=flat-square&logo=kalilinux&logoColor=557C94" />
-<img src="https://img.shields.io/badge/Python-0b0c10?style=flat-square&logo=python&logoColor=3776AB" />
-<img src="https://img.shields.io/badge/Bash-0b0c10?style=flat-square&logo=gnubash&logoColor=4EAA25" />
+<a href="https://portswigger.net/burp"><img src="https://img.shields.io/badge/Burp_Suite-0a0e1a?style=flat-square&logo=burpsuite&logoColor=FF6633" /></a>
+<a href="https://nmap.org"><img src="https://img.shields.io/badge/Nmap-0a0e1a?style=flat-square&logo=nmap&logoColor=00B4FF" /></a>
+<a href="https://www.wireshark.org"><img src="https://img.shields.io/badge/Wireshark-0a0e1a?style=flat-square&logo=wireshark&logoColor=1679A7" /></a>
+<a href="https://www.tenable.com/products/nessus"><img src="https://img.shields.io/badge/Nessus-0a0e1a?style=flat-square&logo=tenable&logoColor=00558C" /></a>
+<a href="https://github.com/MobSF/Mobile-Security-Framework-MobSF"><img src="https://img.shields.io/badge/MobSF-0a0e1a?style=flat-square&logo=android&logoColor=3DDC84" /></a>
+<a href="https://frida.re"><img src="https://img.shields.io/badge/Frida-0a0e1a?style=flat-square&logo=frida&logoColor=F5A623" /></a>
+<a href="https://github.com/skylot/jadx"><img src="https://img.shields.io/badge/JADX-0a0e1a?style=flat-square&logo=java&logoColor=E76F00" /></a>
+<a href="https://apktool.org"><img src="https://img.shields.io/badge/Apktool-0a0e1a?style=flat-square&logo=androidstudio&logoColor=3DDC84" /></a>
+<a href="https://www.postman.com"><img src="https://img.shields.io/badge/Postman-0a0e1a?style=flat-square&logo=postman&logoColor=FF6C37" /></a>
+<a href="https://www.kali.org"><img src="https://img.shields.io/badge/Kali-0a0e1a?style=flat-square&logo=kalilinux&logoColor=557C94" /></a>
+<a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-0a0e1a?style=flat-square&logo=python&logoColor=3776AB" /></a>
+<a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Bash-0a0e1a?style=flat-square&logo=gnubash&logoColor=4EAA25" /></a>
 
 </td>
 <td>
 
-<img src="https://img.shields.io/badge/Active_Directory-0b0c10?style=flat-square&logo=microsoft&logoColor=00A4EF" />
-<img src="https://img.shields.io/badge/BloodHound-0b0c10?style=flat-square&logo=hackthebox&logoColor=9FEF00" />
-<img src="https://img.shields.io/badge/Cloud_Security-0b0c10?style=flat-square&logo=amazonwebservices&logoColor=FF9900" />
-<img src="https://img.shields.io/badge/Ghidra-0b0c10?style=flat-square&logo=ghidra&logoColor=FF3B30" />
-<img src="https://img.shields.io/badge/Docker-0b0c10?style=flat-square&logo=docker&logoColor=2496ED" />
-<img src="https://img.shields.io/badge/OSCP_prep-0b0c10?style=flat-square&logo=offensivesecurity&logoColor=EAE0D5" />
+<a href="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview"><img src="https://img.shields.io/badge/Active_Directory-0a0e1a?style=flat-square&logo=microsoft&logoColor=00A4EF" /></a>
+<a href="https://github.com/SpecterOps/BloodHound"><img src="https://img.shields.io/badge/BloodHound-0a0e1a?style=flat-square&logo=hackthebox&logoColor=9FEF00" /></a>
+<a href="https://aws.amazon.com/security/"><img src="https://img.shields.io/badge/Cloud_Security-0a0e1a?style=flat-square&logo=amazonwebservices&logoColor=FF9900" /></a>
+<a href="https://ghidra-sre.org"><img src="https://img.shields.io/badge/Ghidra-0a0e1a?style=flat-square&logo=ghidra&logoColor=FF3B30" /></a>
+<a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-0a0e1a?style=flat-square&logo=docker&logoColor=2496ED" /></a>
+<a href="https://www.offsec.com/courses/pen-200/"><img src="https://img.shields.io/badge/OSCP_prep-0a0e1a?style=flat-square&logoColor=e6edf3" /></a>
 
 </td>
 <td>
 
-<img src="https://img.shields.io/badge/Java-0b0c10?style=flat-square&logo=openjdk&logoColor=EAE0D5" />
-<img src="https://img.shields.io/badge/C-0b0c10?style=flat-square&logo=c&logoColor=A8B9CC" />
-<img src="https://img.shields.io/badge/Solidity-0b0c10?style=flat-square&logo=solidity&logoColor=EAE0D5" />
-<img src="https://img.shields.io/badge/Flask-0b0c10?style=flat-square&logo=flask&logoColor=EAE0D5" />
-<img src="https://img.shields.io/badge/React-0b0c10?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Firebase-0b0c10?style=flat-square&logo=firebase&logoColor=FFCA28" />
-<img src="https://img.shields.io/badge/MySQL-0b0c10?style=flat-square&logo=mysql&logoColor=4479A1" />
-<img src="https://img.shields.io/badge/Git-0b0c10?style=flat-square&logo=git&logoColor=F05032" />
+<a href="https://openjdk.org"><img src="https://img.shields.io/badge/Java-0a0e1a?style=flat-square&logo=openjdk&logoColor=e6edf3" /></a>
+<a href="https://en.cppreference.com/w/c"><img src="https://img.shields.io/badge/C-0a0e1a?style=flat-square&logo=c&logoColor=A8B9CC" /></a>
+<a href="https://soliditylang.org"><img src="https://img.shields.io/badge/Solidity-0a0e1a?style=flat-square&logo=solidity&logoColor=e6edf3" /></a>
+<a href="https://flask.palletsprojects.com"><img src="https://img.shields.io/badge/Flask-0a0e1a?style=flat-square&logo=flask&logoColor=e6edf3" /></a>
+<a href="https://react.dev"><img src="https://img.shields.io/badge/React-0a0e1a?style=flat-square&logo=react&logoColor=61DAFB" /></a>
+<a href="https://firebase.google.com"><img src="https://img.shields.io/badge/Firebase-0a0e1a?style=flat-square&logo=firebase&logoColor=FFCA28" /></a>
+<a href="https://www.mysql.com"><img src="https://img.shields.io/badge/MySQL-0a0e1a?style=flat-square&logo=mysql&logoColor=4479A1" /></a>
+<a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-0a0e1a?style=flat-square&logo=git&logoColor=F05032" /></a>
 
 </td>
 </tr>
@@ -128,6 +135,8 @@ cloud, mobile, thick client, WiFi, source review, social engineering. Imports
 Nmap/Nuclei/Burp output, links findings into attack chains, holds evidence
 attachments. Fully client-side, zero backend.
 
+<a href="https://github.com/ATHARVASAIL/greysh3ll"><img src="https://img.shields.io/badge/View_repo-0a0e1a?style=flat-square&logo=github&logoColor=00B4FF" /></a>
+
 </td>
 <td width="50%" valign="top">
 
@@ -137,6 +146,8 @@ attachments. Fully client-side, zero backend.
 Ingests scanner output and ranks compromise paths by **attacker effort per hop**,
 not raw CVSS. FastAPI + PostgreSQL + NetworkX behind a React/Cytoscape graph.
 Multi-engagement with full report generation.
+
+<a href="https://github.com/ATHARVASAIL/kompromap"><img src="https://img.shields.io/badge/View_repo-0a0e1a?style=flat-square&logo=github&logoColor=00B4FF" /></a>
 
 </td>
 </tr>
@@ -149,6 +160,8 @@ Multi-engagement with full report generation.
 Detects SQLi, XSS, CSRF, SSRF and directory traversal, then emits PDF and JSON
 reports with remediation guidance. Benchmarked against Burp Suite and OWASP ZAP.
 
+<a href="https://github.com/ATHARVASAIL/WebGuard-Advanced_Web_Vulnerability_Scanner"><img src="https://img.shields.io/badge/View_repo-0a0e1a?style=flat-square&logo=github&logoColor=00B4FF" /></a>
+
 </td>
 <td width="50%" valign="top">
 
@@ -157,6 +170,8 @@ reports with remediation guidance. Benchmarked against Burp Suite and OWASP ZAP.
 
 Tamper-proof digital evidence custody. Hashes anchored on-chain, payloads on
 IPFS — a chain of custody that can't be quietly rewritten.
+
+<a href="https://github.com/ATHARVASAIL/Evidence-Management-System"><img src="https://img.shields.io/badge/View_repo-0a0e1a?style=flat-square&logo=github&logoColor=00B4FF" /></a>
 
 </td>
 </tr>
@@ -168,21 +183,30 @@ IPFS — a chain of custody that can't be quietly rewritten.
 
 <div align="center">
 
-<!-- Full dashboard — generated by .github/workflows/metrics.yml -->
-<img src="https://raw.githubusercontent.com/ATHARVASAIL/ATHARVASAIL/main/metrics.svg" width="88%" alt="metrics" />
+<a href="https://github.com/ATHARVASAIL?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0a0e1a?style=for-the-badge&logo=github&logoColor=00B4FF" /></a>
+<a href="https://github.com/ATHARVASAIL?tab=stars"><img src="https://img.shields.io/badge/Starred-0a0e1a?style=for-the-badge&logo=github&logoColor=22D3EE" /></a>
+<a href="https://github.com/ATHARVASAIL?tab=followers"><img src="https://img.shields.io/badge/Followers-0a0e1a?style=for-the-badge&logo=github&logoColor=00B4FF" /></a>
 
 <br/><br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ATHARVASAIL&show_icons=true&hide_border=true&bg_color=0b0c10&title_color=d62828&icon_color=f77f00&text_color=eae0d5&include_all_commits=true&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ATHARVASAIL&layout=compact&hide_border=true&bg_color=0b0c10&title_color=d62828&text_color=eae0d5&langs_count=8" />
+<!-- Dashboard — generated daily by .github/workflows/metrics.yml -->
+<a href="https://github.com/ATHARVASAIL?tab=repositories">
+  <img src="https://raw.githubusercontent.com/ATHARVASAIL/ATHARVASAIL/main/metrics.svg" width="88%" alt="metrics dashboard" />
+</a>
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ATHARVASAIL&bg_color=0b0c10&color=eae0d5&line=d62828&point=f77f00&area=true&area_color=6a040f&hide_border=true&custom_title=Contribution%20Activity" />
+<br/><br/>
 
-<!-- Snake — generated by .github/workflows/snake.yml -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ATHARVASAIL/ATHARVASAIL/output/snake-dark.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/ATHARVASAIL/ATHARVASAIL/output/snake.svg" width="96%" />
-</picture>
+<a href="https://github.com/ATHARVASAIL">
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ATHARVASAIL&bg_color=0a0e1a&color=e6edf3&line=00b4ff&point=22d3ee&area=true&area_color=003554&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" />
+</a>
+
+<!-- Snake — generated every 12h by .github/workflows/snake.yml -->
+<a href="https://github.com/ATHARVASAIL">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ATHARVASAIL/ATHARVASAIL/output/snake-dark.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/ATHARVASAIL/ATHARVASAIL/output/snake.svg" width="96%" />
+  </picture>
+</a>
 
 </div>
 
@@ -199,7 +223,7 @@ IPFS — a chain of custody that can't be quietly rewritten.
 | Cyber Security Internship | — | 2024 |
 | Python Bootcamp | Udemy | 2024 |
 | Ethical Hacking Certification | NPTEL | 2023 |
-| **50+ hands-on labs** | TryHackMe · HackTheBox · PortSwigger | ongoing |
+| **50+ hands-on labs** | [TryHackMe](https://tryhackme.com/p/kirahack10669) · [HackTheBox](https://profile.hackthebox.com/profile/019fe129-f91a-73fb-b789-334a41568712) · [PortSwigger](https://portswigger.net/web-security) | ongoing |
 
 </div>
 
@@ -209,11 +233,9 @@ IPFS — a chain of custody that can't be quietly rewritten.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Chess-0b0c10?style=for-the-badge&logo=chessdotcom&logoColor=81B64C" />
-<img src="https://img.shields.io/badge/Sudoku-0b0c10?style=for-the-badge&logo=sudoku&logoColor=EAE0D5" />
-<img src="https://img.shields.io/badge/Steam-0b0c10?style=for-the-badge&logo=steam&logoColor=EAE0D5" />
-<img src="https://img.shields.io/badge/Spotify-0b0c10?style=for-the-badge&logo=spotify&logoColor=1DB954" />
-<img src="https://img.shields.io/badge/HackTheBox-0b0c10?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" />
+<a href="https://www.chess.com/member/kira10669"><img src="https://img.shields.io/badge/Chess-0a0e1a?style=for-the-badge&logo=chessdotcom&logoColor=81B64C" /></a>
+<a href="https://sudoku.com"><img src="https://img.shields.io/badge/Sudoku-0a0e1a?style=for-the-badge&logoColor=e6edf3" /></a>
+<a href="https://portswigger.net/web-security"><img src="https://img.shields.io/badge/PortSwigger_Labs-0a0e1a?style=for-the-badge&logo=burpsuite&logoColor=FF6633" /></a>
 
 </div>
 
@@ -223,8 +245,8 @@ IPFS — a chain of custody that can't be quietly rewritten.
 
 ### `[~]` Open to VAPT roles & security engagements
 
-<a href="https://www.linkedin.com/in/atharvasail"><img src="https://img.shields.io/badge/START_ENGAGEMENT-d62828?style=for-the-badge&logo=minutemailer&logoColor=EAE0D5" /></a>
+<a href="https://www.linkedin.com/in/atharva-sail"><img src="https://img.shields.io/badge/START_ENGAGEMENT-00b4ff?style=for-the-badge&logo=minutemailer&logoColor=0a0e1a" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:d62828,50:6a040f,100:0b0c10&height=130&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4ff,55:003554,100:0a0e1a&height=130&section=footer" width="100%" />
 
 </div>
